@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Open with My Notebook]
+@="Open with Buuggeyga"
+"Icon"="notepad.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Open with My Notebook\command]
+@="\"C:\\Users\\hp\\Desktop\\Projects_Software\\My_Notebook\\run_notebook.bat\" \"%1\""

@@ -1,0 +1,30 @@
+﻿# My Notebook - Advanced Multi-Format Notebook
+
+Feature-rich desktop notebook with Windows right-click integration.
+
+## Features
+- Rich text editor
+- Support for multiple formats: PDF, HTML, Binary files
+- Windows right-click context menu integration
+- Export and preview capabilities
+
+## How to Run
+Double-click: run_notebook.bat
+
+## Windows Integration (Optional)
+To add "Open with Notebook" to right-click menu:
+1. Right-click: add_to_right_click.reg
+2. Click "Merge"
+3. Confirm when prompted
+
+## Requirements
+`.
+pip install -r requirements.txt
+`
+"@ | Out-File "C:\Users\hp\Desktop\Projects_Software\My_Notebook\README.md" -Encoding UTF8
+
+@"
+tkinter-tooltip>=2.1.0
+Pillow>=10.0.0
+PyPDF2>=3.0.0
+python-docx>=0.8.11
